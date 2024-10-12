@@ -62,6 +62,7 @@ cover/
 # Django stuff:
 *.log
 local_settings.py
+_local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
@@ -172,5 +173,18 @@ poetry.toml
 
 # LSP config files
 pyrightconfig.json
+
+# Visual Studio Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# Personal
+*.pyc
+__localcode
+static/
 
 # End of https://www.toptal.com/developers/gitignore/api/python
